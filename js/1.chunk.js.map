@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./shared.js"],"names":[],"mappings":";;;;;AAAA;AACA;AACA;AACA,G","file":"1.chunk.js","sourcesContent":["var common = require(\"./common\");\nmodule.exports = function(msg) {\n\tconsole.log(msg);\n};\n\n\n/*****************\n ** WEBPACK FOOTER\n ** ./shared.js\n ** module id = 2\n ** module chunks = 1\n **/"],"sourceRoot":""}
