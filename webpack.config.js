@@ -10,7 +10,8 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, "js"),
 		filename: "[name].bundle.js",
-		chunkFilename: "[id].chunk.js"
+		chunkFilename: "[id].chunk.js",
+		publicPath: "/js/"
 	},
 	devtool: 'source-map',
 	plugins: [
