@@ -5,6 +5,7 @@ webpackJsonp([1],{
 
 	var common = __webpack_require__(1);
 	module.exports = function(msg) {
+		console.log('shared');
 		console.log(msg);
 	};
 
