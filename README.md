@@ -1,7 +1,13 @@
+
+# Stand-alone Webpack Multiple Entry Point Example
+* To build use `webpack` from the command line
+* Start server `node server.js`
+* Go to localhost:8080/pageA.html ...
+
+## Based from Webpack Examples
 This comes from https://github.com/webpack/webpack/tree/master/examples/multiple-entry-points.
 
-
-
+## Webpack Examples code below
 This example shows how to use multiple entry points with a commons chunk.
 
 In this example you have two (HTML) pages `pageA` and `pageB`. You want to create individual bundles for each page. In addition to this you want to create a shared bundle that contains all modules used in both pages (assuming there are many/big modules in common). The pages also use Code Splitting to load a less used part of the features on demand.
